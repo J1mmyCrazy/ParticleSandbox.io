@@ -1,105 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Assignment 1</title>
+    <title>James Uriarte Portal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="JC_logo.png" type="image/png">
 </head>
 
 <body>
-    <h1>Welcome to my portal!</h1>
-    <p>My name is James Uriarte and this is my first assignment!</p>
+    <main class="page">
+        <section class="hero">
+            <h1>Welcome to My COMP 193 Portal</h1>
+            <p>My name is James Uriarte, and this page holds my assignments, projects, and final project.</p>
 
-    <button onclick="castSpell()">Click Me</button>
-    <p id="spellResult"></p>
+            <button class="magic-button" onclick="castSpell()">Click Me</button>
+            <p id="spellResult"></p>
+        </section>
+
+        <section class="card">
+            <h2>Assignments</h2>
+            <div class="button-grid">
+                <a href="comp-193-demo/demo2.html"><button>Assignment 2</button></a>
+                <a href="comp-193-demo/demo3.html"><button>Assignment 3</button></a>
+                <a href="comp-193-demo/demo4.html"><button>Assignment 4</button></a>
+                <a href="comp-193-demo/demo5.html"><button>Assignment 5</button></a>
+                <a href="comp-193-demo/demo6.html"><button>Assignment 6</button></a>
+                <a href="comp-193-demo/demo7.html"><button>Assignment 7</button></a>
+                <a href="comp-193-demo/demo8.html"><button>Assignment 8</button></a>
+                <a href="comp-193-demo/demo10.html"><button>Assignment 10</button></a>
+                <a href="comp-193-demo/demo11.html"><button>Assignment 11</button></a>
+                <a href="comp-193-demo/demo12.html"><button>Assignment 12</button></a>
+                <a href="comp-193-demo/demo13.html"><button>Assignment 13</button></a>
+                <a href="comp-193-demo/demo14.html"><button>Assignment 14</button></a>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Projects</h2>
+            <div class="button-grid">
+                <a href="p1/project1.html"><button>Project 1: Pumpkin</button></a>
+                <a href="comp-193-demo/project2.html"><button>Project 2: Sharingan Eye</button></a>
+                <a href="comp-193-demo/project3.html"><button>Project 3: Demo Copy</button></a>
+                <a href="comp-193-demo/project4.html"><button>Project 4: World of Fire</button></a>
+                <a href="comp-193-demo/demo8.html"><button>Project 5: Demo 8</button></a>
+                <a href="comp-193-demo/project6.html"><button>Project 6: 3D Shapes</button></a>
+                <a href="comp-193-demo/project7.html"><button>Project 7: Volume Rendering</button></a>
+            </div>
+        </section>
+
+        <section class="final-card">
+            <h2>Final Project</h2>
+            <p>Interactive WebGPU Particle Sandbox with multiple simulation modes, particles, colors, trails, and HUD controls.</p>
+            <a href="comp-193-demo/finalproject.html">
+                <button class="final-button">Launch Final Project</button>
+            </a>
+        </section>
+    </main>
 
     <script src="spell.min.js"></script>
-
-    <h2>Look around and you'll find some of my other work :3</h2>
-
-    <h3>Assignments</h3>
-    <a href="comp-193-demo/demo2.html">
-        <button>Assignment 2</button>
-    </a>
-
-    <a href="comp-193-demo/demo3.html">
-        <button>Assignment 3</button>
-    </a>
-
-     <a href="comp-193-demo/demo4.html">
-        <button>Assignment 4</button>
-    </a>
-    
-    <a href="comp-193-demo/demo5.html">
-        <button>Assignment 5</button>
-    </a>
-
-     <a href="comp-193-demo/demo6.html">
-        <button>Assignment 6</button>
-    </a>
-
-    <a href="comp-193-demo/demo7.html">
-        <button>Assignment 7</button>
-    </a>
-
-    <a href="comp-193-demo/demo8.html">
-        <button>Assignment 8</button>
-    </a>
-
-     <a href="comp-193-demo/demo10.html">
-        <button>Assignment 10</button>
-    </a>
-
-    <a href="comp-193-demo/demo11.html">
-        <button>Assignment 11</button>
-    </a>
-
-      <a href="comp-193-demo/demo12.html">
-        <button>Assignment 12</button>
-    </a>
-
-    <a href="comp-193-demo/demo13.html">
-        <button>Assignment 13</button>
-    </a>
-    
-    <a href="comp-193-demo/demo14.html">
-        <button>Assignment 14</button>
-    </a>
-
-    <br><br>
-
-    <h3>Projects</h3>
-    <a href="p1/project1.html">
-        <button>Project 1 – Pumpkin</button>
-    </a>
-
-    <a href="comp-193-demo/project2.html">
-        <button>Project 2 – Sharingan Eye</button>
-    </a>
-     
-    <a href="comp-193-demo/project3.html">
-        <button>Project 3 – Demo Copy</button>
-    </a>
-
-    <a href="comp-193-demo/project4.html">
-        <button>Project 4 – World of Fire</button>
-    </a>
-
-    <a href="comp-193-demo/demo8.html">
-        <button>Project 5 - Demo 8</button>
-    </a>
-
-    <a href="comp-193-demo/project6.html">
-        <button>Project 6 – 3D Shapes</button>
-    </a>
-
-    <a href="comp-193-demo/project7.html">
-        <button>Project 7 – Volume Rendering</button>
-    </a>
-
-    <a href="comp-193-demo/finalproject.html">
-        <button>Final Project</button>
-    </a>
-
 </body>
 </html>
