@@ -1,76 +1,163 @@
 # J1mmyCrazy.github.io
 
-## Name of 3 classmates and skill or interest
-- **Andrew**: One interest they have is game development. 
-- **Raymond**: One interest they have is in visuals.
-- **Diego**: One interest they have in in the visual aspect of video games.
+## Classmates and Interests
+- **Andrew**: Interested in game development  
+- **Raymond**: Interested in visual design  
+- **Diego**: Interested in the visual aspects of video games  
 
-## A place I would like to visit and why
-I would like to go to a GDC. Every year I have wanted to go there was always some conflict in the way.
+---
+
+## A Place I Would Like to Visit
+I would like to attend GDC. Every year I’ve wanted to go, but there has always been some kind of conflict that prevented me from going.
+
+---
 
 ## Quest 1 – 2D Scene
-In this quest I made a pumpkin using a bunch of different shapes and colors. I arranged the shapes to form a stylized pumpkin face instead of just placing them randomly.
-The goal of this project was to get comfortable rendering multiple visible shapes and combining them into something recognizable.
+In this quest, I created a pumpkin using multiple shapes and colors. I arranged the shapes carefully to form a stylized pumpkin face rather than placing them randomly.  
 
-## Quest 2 - Animated 2D Scene 
-In this quest I made the sharingan eye from a manga/show called Naruto. I added 2 filters being the Gaussian blur and 8-bit. I did add the grayscale filter at first but opted not too becasue it changed the way I wanted to scene too look. 
+The goal of this project was to get comfortable rendering multiple shapes and combining them into something recognizable.
 
-## Quest 3 - Interactive 2D Scene
-(1 pt) Game of Life grid updated using a compute shader
-(1 pt) Grid is at least 256×256 and randomly initialized
-(1 pt) Keyboard input to pause/resume and reset
-(1 pt) Keyboard input to speed up / slow down
-(1 pt) 2D camera movement with keyboard (pan)
-(1 pt) 2D camera zoom in/out
-(1 pt) On-screen text instructions (HUD)
-(1 pt) FPS text toggle (HUD)
-(1 pt) Cells are rendered with a fragment shader using distinct colors
+---
+
+## Quest 2 – Animated 2D Scene
+In this quest, I created the Sharingan eye from the anime *Naruto*. I applied two filters: Gaussian blur and 8-bit quantization.  
+
+I initially experimented with a grayscale filter, but decided not to use it because it changed the visual style of the scene in a way I didn’t like.
+
+---
+
+## Quest 3 – Interactive 2D Scene
+- Game of Life grid updated using a compute shader  
+- Grid size of at least 256×256 with random initialization  
+- Keyboard input to pause/resume and reset  
+- Keyboard input to adjust simulation speed  
+- 2D camera movement using keyboard (pan)  
+- 2D camera zoom in/out  
+- On-screen text instructions (HUD)  
+- FPS display toggle (HUD)  
+- Cells rendered with a fragment shader using distinct colors  
+
+---
 
 ## Quest 4 – Dynamic Particle Scene
-(1 pt) Particle system physics implemented using a compute shader
-(1 pt) Forces applied to particles (buoyancy, wind, and gravity)
-(1 pt) Particle lifespan with respawning and enforced maximum particle count
-(1 pt) Particle positions updated from velocity each frame
-(1 pt) Boundary wrap-around applied to particles leaving the screen
-(1 pt) Mouse interaction used to attract particles in real time
-(1 pt) Recognizable particle effects created (fire + rainbow sparks)
-(1 pt) Non-linear interpolation applied to particle alpha fade
-(1 pt) Scene composed of two simultaneous particle effects
-(1 pt) Runs interactively with large particle counts (30,000+ total)
+- Particle system physics implemented using a compute shader  
+- Forces applied to particles (buoyancy, wind, gravity)  
+- Particle lifespan with respawning and max particle count  
+- Particle positions updated each frame using velocity  
+- Boundary wrap-around for particles leaving the screen  
+- Mouse interaction to attract particles in real time  
+- Recognizable particle effects (fire and rainbow sparks)  
+- Non-linear interpolation used for alpha fading  
+- Scene composed of two simultaneous particle effects  
+- Runs interactively with large particle counts (30,000+)  
 
-## Quest 5 - Polygon Collision and Acceleration
-(1 pt) Basic point-inside/outside-polygon test implemented and verified on convex polygons such as the box and circle
-(1 pt) Winding number test implemented so inside/outside detection works on non-convex polygons such as the star and human
-(1 pt) Collision feedback displayed interactively by reporting whether the cursor is inside or outside the polygon
-(1 pt) GPU-based point-in-polygon collision detection implemented using a compute shader
-(1 pt) Collision detection accelerated using GPU readback with a staging buffer
-(1 pt) Collision detection remained interactive on dense polygon data with very large edge counts
-(1 pt) Polygon files loaded and rendered correctly from provided polygon assets
-(1 pt) Convex and non-convex polygon handling implemented and tested in the same workflow
-(1 pt) Mouse tracking integrated with interactive collision testing
-(1 pt) Winding-number-based collision testing extended beyond console-only debugging into a working interactive system
+---
 
-## Quest 6 - 3D Shapes
-(1 pt) Projective ray generation implemented using a pinhole camera model
-(1 pt) Camera translation control implemented with keyboard input
-(1 pt) Camera rotation control implemented with keyboard input
-(1 pt) Projective camera focal length control implemented for both x and y focal
-(1 pt) Object translation control implemented with keyboard input
-(1 pt) Object rotation control implemented with keyboard input on x, y, and z axes
-(1 pt) Intersection results colored by hit value and surface orientation to improve depth perception
-(1 pt) At least three different ray-intersected shapes implemented and displayed
-(1 pt) Ray-cube intersection implemented and displayed on screen
-(1 pt) Ray-sphere intersection implemented and displayed on screen
-(1 pt) Ray-cylinder intersection implemented and displayed on screen
+## Quest 5 – Polygon Collision and Acceleration
+- Point-in-polygon test implemented for convex shapes  
+- Winding number test for non-convex shapes  
+- Interactive collision feedback (inside vs outside)  
+- GPU-based collision detection using compute shader  
+- GPU readback with staging buffer for acceleration  
+- Maintained performance with dense polygon data  
+- Polygon assets loaded and rendered correctly  
+- Convex and non-convex handling in the same system  
+- Mouse tracking integrated with collision testing  
+- Fully interactive collision system (not just console output)  
 
-## Quest 7 - Volume Rendering
-(1 pt) Ray marching implemented with both orthogonal and pinhole/projective camera support for volume rendering
-(1 pt) Customized volume data loading implemented using BrainWeb medical volume data
-(1 pt) Procedural generation of volume data implemented using Perlin noise
-(1 pt) Linear transfer function implemented for scalar-to-intensity visualization
-(1 pt) Piecewise linear transfer function implemented for improved volume visualization
-(1 pt) Additional transfer function implemented using depth/false-color style encoding
-(1 pt) Additional transfer function implemented using DRR / absorption-style volume rendering
-(1 pt) Perlin noise-based terrain implemented and visualized with volume rendering
-(1 pt) Perlin noise-based fog / cloud special effect implemented and visualized
-(1 pt) Interactive volume rendering showcase composed with multiple switchable rendering modes and datasets
+---
+
+## Quest 6 – 3D Shapes
+- Projective ray generation using a pinhole camera model  
+- Camera translation and rotation controls  
+- Adjustable focal length (x and y)  
+- Object translation and rotation (x, y, z axes)  
+- Intersection-based coloring for depth perception  
+- At least three different ray-intersected shapes  
+- Ray-cube, ray-sphere, and ray-cylinder implemented  
+
+---
+
+## Quest 7 – Volume Rendering
+- Ray marching with orthogonal and projective cameras  
+- BrainWeb volume data loading  
+- Procedural volume generation using Perlin noise  
+- Linear transfer function for visualization  
+- Piecewise linear transfer function  
+- Depth/false-color transfer function  
+- DRR (absorption-based) rendering  
+- Perlin noise terrain visualization  
+- Fog/cloud effects using volume rendering  
+- Interactive system with multiple datasets and modes  
+
+# Interactive WebGPU Particle Sandbox
+
+This project is a real-time 2D particle simulation built using WebGPU. It allows users to interact with particles through different physics behaviors and visual modes. The system runs on the GPU using compute shaders for efficient updates.
+
+---
+
+## Features
+
+### Simulation Modes
+- Static  
+- Gravity  
+- Explosion  
+- Orbit  
+- Fire  
+- Rain  
+- Cursor Follow  
+
+### Particle System
+- GPU-based particle simulation  
+- Ping-pong buffer updates  
+- Supports up to 1000 particles  
+- Real-time motion and physics  
+
+### Interaction
+- Left click: Attract particles  
+- Right click: Repel particles  
+- Keyboard controls for switching modes and adjusting values  
+
+### UI
+- Interactive HUD with controls  
+- Particle count adjustment (0–1000)  
+- Particle size control  
+- Force and damping controls  
+- Color selection options  
+- Toggle trails, reset system, and hide HUD  
+
+---
+
+## Controls
+
+Mouse:
+- Left Click = Attract  
+- Right Click = Repel  
+
+Keyboard:
+- 1–7 = Switch modes  
+- Arrow Up/Down = Force  
+- Arrow Left/Right = Damping  
+- [ / ] = Particle size  
+- - / + = Particle count  
+- T = Toggle trails  
+- R = Reset  
+- H = Toggle HUD  
+
+---
+
+## Individual Reflection (James)
+
+I worked on implementing the core particle system and simulation logic. This included setting up the GPU buffers, compute shader, and multiple simulation modes such as gravity, explosion, orbit, and cursor-follow behavior.
+
+One of the main challenges was getting the compute shader and particle updates working correctly using ping-pong buffers. Debugging GPU behavior required careful testing since small mistakes could break the simulation.
+
+This project helped me better understand how to use the GPU for both simulation and rendering, and how to build an interactive graphics system with real-time controls.
+
+---
+
+## Individual Reflection (Partner)
+
+My partner focused on improving the UI and overall usability of the project. They redesigned the HUD, added new simulation modes like fire and rain, and implemented features such as particle count control and color selection.
+
+They also added useful controls like trails toggle, reset functionality, and the ability to hide the HUD, making the project feel more complete and interactive.
