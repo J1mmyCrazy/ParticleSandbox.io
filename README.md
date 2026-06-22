@@ -1,4 +1,4 @@
-# J1mmyCrazy.github.io
+# CHROME ONLY
 
 # Interactive WebGPU Particle Sandbox
 
